@@ -24,13 +24,13 @@ public class Main { // open the class block
     // Ask the user to enter the month
     System.out.print("Enter the month (1-12): ");
 
-    // We store the user year input into an int named Year
+    // We store the user year input into an int named month
     int month = scanner.nextInt();
 
     // Ask the user to enter the year
     System.out.print("Enter the year: ");
 
-    // We store the user year input into an int named Year
+    // We store the user year input into an int named year
     int year = scanner.nextInt();
 
     // Determine the number of days in February based on leap year logic

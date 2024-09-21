@@ -18,7 +18,7 @@ public class Main { // open the class block
 
   public static void main(String[] args) { // open the main method block
 
-    // Create the Scanner Object mon_input for grabbing the user input
+    // Create the Scanner Object scanner for grabbing the user input
     Scanner scanner = new Scanner(System.in);
 
     // Ask the user to enter the month
@@ -41,7 +41,7 @@ public class Main { // open the class block
 
     // First we check to see if we are dealing with a leap year
     // Leap years only affect the day of February
-    if (month == 2) { // open the if block
+    if (month == 2) {
 
       // If the leapYear boolean is true, then we set the daysInMonth to 29
       if (leapYear) { daysInMonth = 29; } 
